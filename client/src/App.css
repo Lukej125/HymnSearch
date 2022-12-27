@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.btn {
+  background: #005eff;
+  background-image: -webkit-linear-gradient(top, #005eff, #0073ff);
+  background-image: -moz-linear-gradient(top, #005eff, #0073ff);
+  background-image: -ms-linear-gradient(top, #005eff, #0073ff);
+  background-image: -o-linear-gradient(top, #005eff, #0073ff);
+  background-image: linear-gradient(to bottom, #005eff, #0073ff);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #079ded;
+  background-image: -webkit-linear-gradient(top, #079ded, #ffffff);
+  background-image: -moz-linear-gradient(top, #079ded, #ffffff);
+  background-image: -ms-linear-gradient(top, #079ded, #ffffff);
+  background-image: -o-linear-gradient(top, #079ded, #ffffff);
+  background-image: linear-gradient(to bottom, #079ded, #ffffff);
+  text-decoration: none;
+}
+
+.hymns {
+  background-color: rgb(53, 25, 130);
+  color: rgb(255, 255, 255);
+  /* display: flex; */
+  flex-direction: column;
+  width: 100vw;
+  margin: 0;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    53deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(29, 29, 52, 1) 23%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  padding-bottom: 1vw;
+}
+
+/* .bigContainer {
+  background-color: rgb(53, 25, 130);
+  background: rgb(84,131,212);
+  background: linear-gradient(186deg, rgba(84,131,212,1) 0%, rgba(1,0,124,1) 25%, rgba(18,26,142,1) 46%, rgba(2,0,36,1) 59%, rgba(0,0,255,1) 100%, rgba(0,212,255,1) 100%);
+} */
+
+.form {
+  background-color: rgb(124, 37, 37);
+  color: white;
+}
+
+.Image {
+  width: 30em;
+  height: 40em;
+}
+
+.imgDiv {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.imgDiv p {
+  margin-top: 5px;
+  width: 25vw;
+}
+
+.formWrapper {
+  display: flex;
+}
+
+.Link {
+  text-decoration: none;
+  color: white;
+}
+
+.Main {
+  width: 100%;
+  margin: 0;
+}
