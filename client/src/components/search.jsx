@@ -96,7 +96,11 @@ export const Search = (props) => {
           return (
             <div className="hymns">
               <br />
-              <p>Hymn Title: {item.title}</p>
+              {"title" in item ? (
+                <p>Hymn Title: {item.title}</p>
+              ) : (
+                <p> Title Unknown </p>
+              )}
               <br />
               <p>Scriptures Referenced: {item["scripture references"]}</p>
               <br />
